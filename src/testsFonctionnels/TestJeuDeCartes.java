@@ -1,9 +1,19 @@
 package testsFonctionnels;
 
-public class TestJeuDeCartes {
+import org.junit.jupiter.api.Test;
 
+import cartes.*;
+
+
+
+public class TestJeuDeCartes {
+	
+	@Test
 	public TestJeuDeCartes() {
-		// TODO Auto-generated constructor stub
+		public static void main() {
+		        JeuDeCartes jeu = new JeuDeCartes();
+		        jeu.afficherJeuDeCartes();
+		    }
 	}
 
 }
