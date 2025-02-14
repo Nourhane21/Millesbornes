@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * 
- */
-module Millesbornes {
-	requires junit;
-}
